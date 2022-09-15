@@ -1,0 +1,28 @@
+# main links
+main:
+  - title: "Home"
+    url: https://signalman.github.io/
+
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: https://github.com/signalman
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "알고리즘"
+    url: /categories/categories1/
+  - title: "스프링/스프링부트"
+    url: /categories/categories2/
+  - title: "프로젝트"
+    url: /categories/categories3/
+  - title: "개발일지/회고"
+    url: /categories/categories4/
