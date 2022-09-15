@@ -99,10 +99,10 @@ analytics:
 # Site Author
 author:
   name: "signalman" # 블로그 닉네임
-  avatar: "/assets/images/meee.png" # 블로그 프로필 사진
-  #   bio              : "hi all!"
-  # location         : "Seoul, Korea"
-  # email            : "youremailhere@xxxxxx.com"
+  #avatar: "/assets/images/meee.png" # 블로그 프로필 사진
+#  bio              : "가치를 만들자"
+#  location         : "Seoul, Korea"
+#  email            : "youremailhere@xxxxxx.com"
 
   links: # 사이트 링크
 #     - label: "Email"
@@ -268,7 +268,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+#   _posts
   - scope:
       path: ""
       type: posts
@@ -278,6 +278,21 @@ defaults:
       read_time: #true
       show_date: true
       comments: true
+      toc: true
+      toc_sticky: true
+      permalink: categories/:categories/:title
+      # share: true
+      related: true
+      sidebar:
+        nav: "categories"
+
+  #   categories
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: category
+      author_profile: true
       # share: true
       related: true
       sidebar:

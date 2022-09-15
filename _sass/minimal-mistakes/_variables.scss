@@ -45,7 +45,7 @@ $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px
 $type-size-4: 1.25em !default; // ~20px
 $type-size-5: 1em !default; // ~16px
-$type-size-6: 0.75em !default; // ~12px
+$type-size-6: 0.8em !default; // ~12px //0.75em
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
@@ -151,21 +151,21 @@ $small: 600px !default;
 $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
-$x-large: 1280px !default;
+$x-large: 1400px !default;
 $max-width: $x-large !default;
 
 /*
    Grid
    ========================================================================== */
 
-$left-sidebar-width-narrow: 240px !default;
-$left-sidebar-width: 280px !default;
-$left-sidebar-width-wide: 400px !default;
+$left-sidebar-width-narrow: 240px !default; //240
+$left-sidebar-width: 280px !default;        //280
+$left-sidebar-width-wide: 400px !default;   //400
 
 /* changed right sidebar width 200 -> 240, 250 -> 280 */
-$right-sidebar-width-narrow: 240px !default;
-$right-sidebar-width: 280px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 240px !default;  //240
+$right-sidebar-width: 280px !default;         //280
+$right-sidebar-width-wide: 400px !default;    //400
 
 /*
    Other

@@ -18,11 +18,17 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "알고리즘"
-    url: /categories/categories1/
-  - title: "스프링/스프링부트"
-    url: /categories/categories2/
-  - title: "프로젝트"
-    url: /categories/categories3/
+  - title: "Algorithm"
+    url: /categories/algorithm
+  - title: "Spring/Spring-Boot"
+    url: /categories/spring
+  - title: "Project"
+    url: /categories/project
+  - title: "CS study"
+    url: /categories/CS
+  - title: "C++"
+    url: /categories/cpp
+  - title: "Java"
+    url: /categories/java
   - title: "개발일지/회고"
-    url: /categories/categories4/
+    url: /categories/blog
