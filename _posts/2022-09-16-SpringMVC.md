@@ -49,12 +49,12 @@ public class HelloServlet extends HttpServlet{
 }
 ```
 ### 순수 서블릿 사용 방식 - Request
->HttpServletRequest를 사용하면 HTTP메시지의 StartLine, 헤더, 바디를 편리하게 조회할 수 있다. <br>
+>HttpServletRequest를 사용하면 HTTP메시지의 StartLine, 헤더, 바디를 편리하게 조회할 수 있다.  
 (+ 임시저장소, 세션관리 기능까지)
 
 - 요청 데이터 읽기
 1. GET방식, HTML form : getParameter(), getParameterNames(), getParameterValues()를 활용
-2. API(텍스트) : ServletInputStream </br>(InputStream은 메시지 바디를 전체를 byte 코드로 반환. 반환후 UTF-8로 String으로 변환해야함)
+2. API(텍스트) : ServletInputStream (InputStream은 메시지 바디를 전체를 byte 코드로 반환. 반환후 UTF-8로 String으로 변환해야함)
 3. API(JSON) : ObjectMapper(Jackson라이브러리) 객체 생성 후 2번과 동일하게 InputStream을 활용하여 메시지 바디와 매핑할 객체를 매핑한다.
 ```java
 //Request - JSON API 데이터 읽기
