@@ -6,7 +6,7 @@ comments: false
 ---
 
 
-```json
+```c++
 Hoin {
     nickname = "signalman",
     birthDay = "1997-03-07",
