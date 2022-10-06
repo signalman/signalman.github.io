@@ -24,10 +24,10 @@ categories:
     url: /categories/spring
   - title: "Project"
     url: /categories/project
-  - title: "CS study"
-    url: /categories/CS
-  - title: "C++"
-    url: /categories/cpp
+#  - title: "CS study"
+#    url: /categories/CS
+#  - title: "C++"
+#    url: /categories/cpp
   - title: "Java"
     url: /categories/java
   - title: "개발일지/회고"
